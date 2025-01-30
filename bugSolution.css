@@ -1,0 +1,9 @@
+The corrected CSS code demonstrates the proper use of `calc()` with no spaces around operators:
+
+```css
+.element {
+  width: calc(100px + 20px);
+  height: calc(50vh - 10px);
+}
+```
+This will correctly calculate the width as 120px and the height as 50vh minus 10px.  Make sure to always adhere to the correct syntax to avoid unexpected results.
